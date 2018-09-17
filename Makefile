@@ -31,11 +31,11 @@ clean:
 	rm -f solve.so solve_bs solve_piwi_bs solve_piwi libnfc_crypto1_crack
 
 get_craptev1:
-	wget http://www2.nes.fr/mifare/craptev1-v1.1.tar.xz
+	wget http://www2.vaneay.fr/mifare/craptev1-v1.1.tar.xz
 	tar Jxvf craptev1-v1.1.tar.xz
 
 get_crapto1:
-	wget http://www2.nes.fr/mifare/crapto1-v3.3.tar.xz
+	wget http://www2.vaneay.fr/mifare/crapto1-v3.3.tar.xz
 	mkdir crapto1-v3.3
 	tar Jxvf crapto1-v3.3.tar.xz -C crapto1-v3.3
 
